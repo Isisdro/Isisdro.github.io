@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100;
+    vertical-align: baseline;
+
+    
+
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+ol{
+    list-style: none ;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.head{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 50px;
+  background: #171717;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.logo{
+    margin-left: 30px;
+
+}
+.logo a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.navbar a{
+    display: block;
+    padding: 20px 23px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+
+
+}
+.navbar a:hover{
+    background:#3f3f3f ;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 60vh  !important;
+background: url(ciberseguridad.webp) no-repeat center ;
+background-size:cover ;
+
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight:600 ;
+    text-transform: uppercase;
+    
+    
+
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 10px;
+}
+
+.btn-home{
+    display: inline-block;
+   margin-top: 15px;
+   padding: 15px 40px;
+   border: #171717 solid 2px;
+   color: #fff;
+   text-decoration: none;
+   background: #3f3f3f;
+
+
+    
+}
+
+.sau
+{
+    background: black ;
+    color: #fff;
+
+}
+
+.header{
+    display: flex
+;
+flex-direction: column;
+align-items: center;
+height: auto;
+justify-content: center;
+
+}
+
+.box-contaier{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    text-align: center;
+    margin: 15px ;
+
+}
+.about{
+    background: #171717;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.box{
+    margin: 5px;
+    
+}
+
+.box-contaier .box
+{
+    width:17rem ;
+    height: 17rem;
+    background-color: #353434;
+    border-radius: 5rem;
+    text-align: center;
+   box-shadow: #171717;
+   margin: 5rem;
+}
+
+.box-contaier .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff
+    ;
+    background: purple;
+    font-size: 2rem;
+    margin: 2rem 0;
+
+
+    
+    
+    
+}
+.contac{
+    background-image:url(Que-es-Ciberseguridad.webp) ;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+}
+
+

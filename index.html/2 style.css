@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100;
+    vertical-align: baseline;
+
+    
+
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+
+
+
+}
+
+ol{
+    list-style: none ;
+}
+
+.head{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 50px;
+  background: #171717;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.logo{
+    margin-left: 30px;
+
+}
+
+.logo a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.navbar a{
+    display: block;
+    padding: 20px 23px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+   
+.navbar a:hover{
+    background:#3f3f3f ;
+
+}
+
+.header{
+    background:#000000;
+    height: 60vh !important ;
+    background-size: cover;
+
+}
+
+.header{
+    align-content: center;
+    color: #fff;
+    padding: 20px 40px;
+    
+   
+}
+
+.title{
+text-transform: uppercase;
+margin-bottom: 40px;
+font-size: 40px;
+font-weight: 600;
+
+
+}
+
+.Miembros{
+background: #3f3f3f;
+height: 45vh !important;
+color: #fff;
+margin-top: 1rem;
+margin-block-end: 2rem;
+
+
+}
+
+.h4{
+    margin-bottom: 15px;
+
+}
+
+.box-contaier .box{
+    background: #000000;
+    margin-block-end: 2rem;
+    border-radius: 25%;
+    height: 10rem;
+    
+    
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+
+}
+
+
+.section{
+background-image: url(innosvholls.jpg);
+ background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.section{
+    height: 80vh !important;
+}
